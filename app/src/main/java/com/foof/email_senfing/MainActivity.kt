@@ -31,7 +31,8 @@ class MainActivity : AppCompatActivity() {
     private fun sendEmail() {
         val stringSenderEmail = "programerx55@gmail.com"
         val stringReceiverEmail = "miantousif1155@gmail.com"
-        val stringPasswordSenderEmail = "ybtbpttopxoyzryw"
+        val stringPasswordSenderEmail = "place your app password here"  // for geting app password goto your google account seting and turn on two step verification then serch app password on search bar you will get the app password after giveing app name......
+        
         val stringHost = "smtp.gmail.com"
 
         val properties = Properties().apply {
